@@ -14,6 +14,9 @@
 // }
 
 
+
+
+
 // Snack 2
 // L’utente inserisce due parole in successione, con due prompt.
 // Il software stampa prima la parola più corta, poi la parola più lunga.
@@ -31,6 +34,8 @@
 
 
 
+
+
 // Snack 3
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
@@ -43,6 +48,8 @@
 //  }
 
 //  alert(`Il risultato è ${somma}`);
+
+
 
 
 
@@ -68,21 +75,60 @@
 // }
 
 
+
+
+
 // Snack 5
 // Crea un array vuoto.
 // Chiedi per 6 volte all’utente di inserire un numero,
 // se è dispari inseriscilo nell’array.
 
-let arr = [];
-let output = document.querySelector('.output');
+// let arr = [];
+// let output = document.querySelector('.output');
 
-for (let i = 0; i < 6; i++) {
-    let num = parseInt(prompt('Inserisci numero'));
-    if (num % 2 == 1) {
-        arr.push(num);
-        output.innerHTML = arr;  
-    } 
-}
+// for (let i = 0; i < 6; i++) {
+//     let num = parseInt(prompt('Inserisci numero'));
+//     if (num % 2 == 1) {
+//         arr.push(num);
+//         output.innerHTML = arr;  
+//     } 
+// }
+
+
+
+
+
+// Snack 6
+// Chiedi un numero di 4 cifre all’utente
+// e calcola la somma di tutte le cifre che compongono il numero.
+
+// let arr = [];
+// let output = document.querySelector('.output');
+
+// for (let i = 0; i < 4; i++) {
+//     let num = parseInt(prompt('Inserisci numero'));
+//     arr.push(num);
+//     const initialValue = 0;
+//     const sum = arr.reduce(
+//     (previousValue, currentValue) => previousValue + currentValue,
+//     initialValue);
+//     output.innerHTML = sum;
+// }
+
+
+// Snack 6.1
+
+// let arr = [];
+// let sum = 0;
+// let output = document.querySelector('.output');
+
+// for (let i = 0; i < 4; i++) {
+//     let num = parseInt(prompt('Inserisci numero'));
+//     arr.push(num);
+//     sum += arr[i];
+//     output.innerHTML = sum;
+// }
+
 
 
 
