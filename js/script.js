@@ -76,7 +76,7 @@
 let arr = [];
 let output = document.querySelector('.output');
 
-for (i = 0; i < 6; i++) {
+for (let i = 0; i < 6; i++) {
     let num = parseInt(prompt('Inserisci numero'));
     if (num % 2 == 1) {
         arr.push(num);
