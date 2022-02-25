@@ -102,15 +102,15 @@
 // Chiedi un numero di 4 cifre all’utente
 // e calcola la somma di tutte le cifre che compongono il numero.
 
-// let output = document.querySelector('.output');
-// let num = parseInt(prompt('Inserisci numero'));
+let output = document.querySelector('.output');
+let num = prompt('Inserisci numero di 4 cifre');
 
-// sum = num
-// .toString()
-// .split('')
-// .map(Number)
-// .reduce(function (a, b) {
-//     return a + b;
-// }, 0);
+sum = num
+.toString()
+.split('')
+.map(Number)
+.reduce(function (a, b) {
+    return a + b;
+}, 0);
 
-// output.innerHTML = sum;
+output.innerHTML = sum;
