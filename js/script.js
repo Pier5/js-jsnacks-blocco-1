@@ -2,16 +2,16 @@
 // L’utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
-// const num1 = parseInt(prompt('Inserisci primo numero'));
-// const num2 = parseInt(prompt('Inserisci secondo numero'));
+//  const num1 = parseInt(prompt('Inserisci primo numero'));
+//  const num2 = parseInt(prompt('Inserisci secondo numero'));
 
-// if (num1 > num2) {
-//     alert(num1);
-// } else if (num1 < num2) {
-//     alert(num2);
-// } else {
-//     alert('sono uguali')
-// }
+//  if (num1 > num2) {
+//      alert(num1);
+//  } else if (num1 < num2) {
+//      alert(num2);
+//  } else {
+//      alert('sono uguali')
+//  }
 
 
 
@@ -102,35 +102,15 @@
 // Chiedi un numero di 4 cifre all’utente
 // e calcola la somma di tutte le cifre che compongono il numero.
 
-// let arr = [];
 // let output = document.querySelector('.output');
+// let num = parseInt(prompt('Inserisci numero'));
 
-// for (let i = 0; i < 4; i++) {
-//     let num = parseInt(prompt('Inserisci numero'));
-//     arr.push(num);
-//     const initialValue = 0;
-//     const sum = arr.reduce(
-//     (previousValue, currentValue) => previousValue + currentValue,
-//     initialValue);
-//     output.innerHTML = sum;
-// }
+// sum = num
+// .toString()
+// .split('')
+// .map(Number)
+// .reduce(function (a, b) {
+//     return a + b;
+// }, 0);
 
-
-// Snack 6.1
-
-// let arr = [];
-// let sum = 0;
-// let output = document.querySelector('.output');
-
-// for (let i = 0; i < 4; i++) {
-//     let num = parseInt(prompt('Inserisci numero'));
-//     arr.push(num);
-//     sum += arr[i];
-//     output.innerHTML = sum;
-// }
-
-
-
-
-
-
+// output.innerHTML = sum;
