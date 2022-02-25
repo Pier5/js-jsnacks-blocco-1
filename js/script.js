@@ -2,16 +2,16 @@
 // L’utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
-//  const num1 = parseInt(prompt('Inserisci primo numero'));
-//  const num2 = parseInt(prompt('Inserisci secondo numero'));
+//   const num1 = parseInt(prompt('Inserisci primo numero'));
+//   const num2 = parseInt(prompt('Inserisci secondo numero'));
 
-//  if (num1 > num2) {
-//      alert(num1);
-//  } else if (num1 < num2) {
-//      alert(num2);
-//  } else {
-//      alert('sono uguali')
-//  }
+//   if (num1 > num2) {
+//       alert(num1);
+//   } else if (num1 < num2) {
+//       alert(num2);
+//   } else {
+//       alert('sono uguali')
+//   }
 
 
 
@@ -24,9 +24,9 @@
 // const par1 = prompt('Inserisci prima parola');
 // const par2 = prompt('Inserisci seconda parola');
 
-// if (par1.length > par2.length) {
+// if (par1.length < par2.length) {
 //     alert(`${par1} ${par2}`);
-// } else if (par1.length < par2.length) {
+// } else if (par1.length > par2.length) {
 //     alert(`${par2} ${par1}`);
 // } else {
 //     alert(`${par1} ${par2}`);
@@ -40,14 +40,14 @@
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
 
-//  let somma = 0;
+// let somma = 0;
 
-//  for (let i = 0; i < 10; i++) {
-//      let num = parseInt(prompt('Inserisci numero'));
-//      somma = somma + num;
-//  }
+// for (let i = 0; i < 10; i++) {
+//     let num = parseInt(prompt('Inserisci numero'));
+//     somma = somma + num;
+// }
 
-//  alert(`Il risultato è ${somma}`);
+// alert(`Il risultato è ${somma}`);
 
 
 
@@ -58,21 +58,21 @@
 // Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o
 // no alla festa.
 
-// let invited = ['John', 'Geralt', 'Mia', 'Ciri', 'Triss', 'Yennefer'];
-// let output = document.querySelector('.output');
-// let nome = prompt('Inserisci il tuo nome');
-// let found = false;
+//  let invited = ['John', 'Geralt', 'Mia', 'Ciri', 'Triss', 'Yennefer'];
+//  let output = document.querySelector('.output');
+//  let nome = prompt('Inserisci il tuo nome');
+//  let found = false;
 
-// for (let i = 0; i < invited.length; i++) {
-//     if (invited[i].toLowerCase() == nome.toLowerCase()) {
-//         found = true;
-//     } 
-//     if (found == true) {
-//         output.innerHTML = 'Invito alla festa confermato';
-//     } else {
-//         output.innerHTML = 'Invito alla festa non confermato';
-//     }
-// }
+//  for (let i = 0; i < invited.length; i++) {
+//      if (invited[i].toLowerCase() == nome.toLowerCase()) {
+//          found = true;
+//      } 
+//      if (found == true) {
+//          output.innerHTML = 'Invito alla festa confermato';
+//      } else {
+//          output.innerHTML = 'Invito alla festa non confermato';
+//      }
+//  }
 
 
 
@@ -83,16 +83,16 @@
 // Chiedi per 6 volte all’utente di inserire un numero,
 // se è dispari inseriscilo nell’array.
 
-// let arr = [];
-// let output = document.querySelector('.output');
+//  let arr = [];
+//  let output = document.querySelector('.output');
 
-// for (let i = 0; i < 6; i++) {
-//     let num = parseInt(prompt('Inserisci numero'));
-//     if (num % 2 == 1) {
-//         arr.push(num);
-//         output.innerHTML = arr;  
-//     } 
-// }
+//  for (let i = 0; i < 6; i++) {
+//      let num = parseInt(prompt('Inserisci numero'));
+//      if (num % 2 == 1) {
+//          arr.push(num);
+//          output.innerHTML = arr;  
+//      } 
+//  }
 
 
 
