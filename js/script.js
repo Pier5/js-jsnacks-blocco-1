@@ -247,8 +247,11 @@ if (num % 2 == 0) {
 
 /*
 let eleUl = document.querySelector('#list');
-const names = ['Gino', 'Sara', 'Marlon', 'Mary', 'Jack'];
-const surnames = ['James', 'Bryant', 'Jordan', 'Kidd', 'Durant'];
+let output = document.querySelector('.output');
+const names = ['Gino', 'Sara', 'Marlon', 'Mary', 'Jack', 'Kevin', 'Ciri', 'Lana', 'Tom', 'Susie'];
+const surnames = ['James', 'Bryant', 'Jordan', 'Kidd', 'Durant', 'Doncic', 'Johnson', 'Gallinari', 'Rukawa', 'Sakuragi'];
+
+output.innerHTML = 'Invitati alla festa:';
 
 for (let i = 0; i < 3; i++) {
     let selectName = Math.floor(Math.random() * names.length);
@@ -258,7 +261,7 @@ for (let i = 0; i < 3; i++) {
     let randomGuest = `${randomName} ${randomSurname}`;
 
     let eleLi = document.createElement('li');
-    eleLi.innerHTML = `Invitato/a alla festa: ${randomGuest}`;
+    eleLi.innerHTML = `${randomGuest}`;
     eleUl.append(eleLi); 
 }
 */
