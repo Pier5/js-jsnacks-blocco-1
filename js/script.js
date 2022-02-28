@@ -127,6 +127,9 @@ output.innerHTML = sum;
 
 
 
+
+
+
 // Snack 1.9
 // Calcola la somma e la media dei primi dieci numeri
 
@@ -220,7 +223,7 @@ output.innerHTML = sum;
 // se è dispari stampa il numero successivo
 
 
-
+/*
 const num = parseInt(prompt('Inserisci un numero'));
 let output = document.querySelector('.output');
 
@@ -230,4 +233,56 @@ if (num % 2 == 0) {
     let otherNum = num + 1;
     output.innerHTML = `${otherNum}`; 
 }
+*/
+
+
+
+
+
+
+// Snack 2.3
+// Generatore di “nomi cognomi” casuali: 
+// prendendo una lista di nomi e una lista di cognomi, 
+// Gatsby vuole generare una falsa lista di 3 invitati.
+
+
+const names = ['Gino', 'Sara', 'Marlon', 'Mary', 'Jack'];
+const surnames = ['James', 'Bryant', 'Jordan', 'Kidd', 'Durant'];
+let selectName = Math.floor(Math.random()*names.length);
+let selectSurname = Math.floor(Math.random()*surnames.length);
+let randomName = names[selectName];
+let randomSurname = surnames[selectSurname];
+let eleUl = document.querySelector('#list');
+let randomGuest = `${randomName} ${randomSurname}`;
+
+for (let i = 0; i < 3; i++) {
+    let eleLi = document.createElement('li');
+    eleLi.innerHTML = randomGuest;
+    eleUl.append(eleLi); 
+}
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
