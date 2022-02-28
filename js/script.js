@@ -130,14 +130,15 @@ output.innerHTML = sum;
 // Snack 1.9
 // Calcola la somma e la media dei primi dieci numeri
 
+// variabili generali per entrambi i cicli
 /*
 let sum = 0;
 let output = document.querySelector('.output'); 
 let outputTwo = document.querySelector('.output-two'); 
 */
 
-// qui ho usato il ciclo for
 
+// qui ho usato il ciclo for
 /*
 for (let i = 1; i <= 10; i++) {
     sum = sum += i;
@@ -153,7 +154,6 @@ outputTwo.innerHTML = average;
 
 
 // qui ho usato il ciclo while
-
 /*
 let i = 1;
 
@@ -177,4 +177,38 @@ outputTwo.innerHTML = average;
 // Il software deve chiedere per 5 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
 // Esegui questo programma in due versioni, con il for e con il while.
+
+
+// variabili generali per entrambi i cicli
+/*
+let sum = 0;
+let output = document.querySelector('.output');
+*/
+
+// con ciclo for
+/*
+for (let i = 0; i < 5; i++) {
+    let num = parseInt(prompt('Inserisci numero'));
+    sum = sum += num;
+}
+
+output.innerHTML = sum;
+*/
+
+
+
+// con ciclo while
+/*
+let i = 0 
+
+while (i < 5) {
+    let num = parseInt(prompt('Inserisci numero'));
+    i++;
+    sum = sum += num;
+}
+
+output.innerHTML = sum;
+*/
+
+
 
