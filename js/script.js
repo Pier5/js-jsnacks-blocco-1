@@ -246,43 +246,18 @@ if (num % 2 == 0) {
 // Gatsby vuole generare una falsa lista di 3 invitati.
 
 
+let eleUl = document.querySelector('#list');
 const names = ['Gino', 'Sara', 'Marlon', 'Mary', 'Jack'];
 const surnames = ['James', 'Bryant', 'Jordan', 'Kidd', 'Durant'];
-let selectName = Math.floor(Math.random()*names.length);
-let selectSurname = Math.floor(Math.random()*surnames.length);
-let randomName = names[selectName];
-let randomSurname = surnames[selectSurname];
-let eleUl = document.querySelector('#list');
-let randomGuest = `${randomName} ${randomSurname}`;
 
 for (let i = 0; i < 3; i++) {
+    let selectName = Math.floor(Math.random() * names.length);
+    let selectSurname = Math.floor(Math.random() * surnames.length);
+    let randomName = names[selectName];
+    let randomSurname = surnames[selectSurname];
+    let randomGuest = `${randomName} ${randomSurname}`;
+
     let eleLi = document.createElement('li');
-    eleLi.innerHTML = randomGuest;
+    eleLi.innerHTML = `Invitato/a alla festa: ${randomGuest}`;
     eleUl.append(eleLi); 
 }
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
