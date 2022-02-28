@@ -212,3 +212,22 @@ output.innerHTML = sum;
 
 
 
+
+
+
+// Snack 2.2
+// Inserisci un numero, se è pari stampa il numero,
+// se è dispari stampa il numero successivo
+
+
+/*
+const num = parseInt(prompt('Inserisci un numero'));
+let output = document.querySelector('.output');
+
+if (num % 2 == 0) {
+    output.innerHTML = `${num}`;
+} else {
+    let othernum = num + 1;
+    output.innerHTML = `${othernum}`; 
+}
+*/
