@@ -245,7 +245,7 @@ if (num % 2 == 0) {
 // prendendo una lista di nomi e una lista di cognomi, 
 // Gatsby vuole generare una falsa lista di 3 invitati.
 
-
+/*
 let eleUl = document.querySelector('#list');
 const names = ['Gino', 'Sara', 'Marlon', 'Mary', 'Jack'];
 const surnames = ['James', 'Bryant', 'Jordan', 'Kidd', 'Durant'];
@@ -261,3 +261,4 @@ for (let i = 0; i < 3; i++) {
     eleLi.innerHTML = `Invitato/a alla festa: ${randomGuest}`;
     eleUl.append(eleLi); 
 }
+*/
