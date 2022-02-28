@@ -220,14 +220,14 @@ output.innerHTML = sum;
 // se è dispari stampa il numero successivo
 
 
-/*
+
 const num = parseInt(prompt('Inserisci un numero'));
 let output = document.querySelector('.output');
 
 if (num % 2 == 0) {
     output.innerHTML = `${num}`;
 } else {
-    let othernum = num + 1;
-    output.innerHTML = `${othernum}`; 
+    let otherNum = num + 1;
+    output.innerHTML = `${otherNum}`; 
 }
-*/
+
